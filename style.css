@@ -1,0 +1,116 @@
+html{
+    font-size: 16px;
+    box-sizing: border-box;
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+body{
+    margin: 20px;
+    font-family:"Karla";
+}
+h4,h2,p,h1{
+    margin: 0;
+}
+.main-div{
+    width: 600px;
+    height: 400px;
+    /* border: 2px black solid; */
+    box-shadow: 2px 3px 7px 1px rgba(0, 0,0, 0.35);
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.top-div{
+    width: 100%;
+    height: 45%;
+    /* border: 2px solid red; */
+    padding: 25px;
+    
+    
+}
+.bottom-div{
+    height: 55%;
+    width: 100%;
+    /* border: 2px blue solid; */
+    color: white;
+
+    
+}
+.bottom-left-div{
+    width: 50%;
+    height: 100%;
+    /* border: 2px yellow solid; */
+    display: inline-block;
+    vertical-align: top;
+    background-color: #2ab2af;
+    padding: 25px;
+
+    
+}
+
+.bottom-right-div{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    /* background-color: #c0df34; */
+    background-color: #1ac9c5;
+    padding: 25px;
+
+}
+
+.top-div h2{
+    color: #2ab2af;
+    margin-bottom: 15PX;
+}
+.top-div h4{
+    color: #c0df34;
+    margin-bottom: 10PX;
+}
+.top-div p{
+    color: #98a6bd;
+}
+button{
+    color: white;
+    width: 100%;
+    background-color: #c0df34;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+
+    
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    
+}
+
+ .bottom-right-div ul{
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+.bottom-left-div h4{
+    margin-bottom: 20px;
+}
+#price,#price-frequency{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#price-frequency{
+    position: relative;
+    top:-4px;
+    font-size: 0.9rem;
+    opacity: 0.7;
+    padding-left: 5px;
+}
+.bottom-left-div p{
+    font-size: 0.8rem;
+    margin-bottom: 30px;
+}
